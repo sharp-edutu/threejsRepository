@@ -1,0 +1,30 @@
+{
+  // =======================================
+  // VS Code 编辑器配置
+  // =======================================
+
+  // 设置默认的代码格式化器为 Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // 启用保存文件时自动格式化
+  "editor.formatOnSave": true,
+
+  // =======================================
+  // 针对特定文件类型的配置
+  // =======================================
+
+  // 为 HTML 文件指定 Prettier 作为格式化器
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // 为 CSS 文件指定 Prettier 作为格式化器
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // 为 JavaScript 文件指定 Prettier 作为格式化器
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
